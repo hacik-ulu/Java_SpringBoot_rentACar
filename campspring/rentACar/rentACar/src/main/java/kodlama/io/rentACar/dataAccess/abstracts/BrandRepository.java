@@ -1,0 +1,15 @@
+package kodlama.io.rentACar.dataAccess.abstracts;
+//Veritabanı işleri yapacak sınıflara verilen isimler ,BrandDao da denir.
+
+import java.util.List;
+
+import org.springframework.stereotype.Repository;
+
+import kodlama.io.rentACar.entities.concretes.Brand;
+
+
+public interface BrandRepository {
+
+	List<Brand>getAll();
+	
+}
